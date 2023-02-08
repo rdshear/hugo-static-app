@@ -2,7 +2,19 @@
     "routes": [
         {
             "route": "/login",
-            "redirect": ".auth/login/github"
+            "redirect": "/.auth/login/github"
+        },
+        {
+            "route": "/.auth/login/twitter",
+            "statusCode": 404
+        },
+        {
+            "route": "/.auth/login/aad",
+            "statusCode": 404
+        },
+        {
+            "route": "/logout",
+            "redirect": ".auth/logout"
         },
         {
             "route": "/*",

@@ -1,0 +1,1 @@
+# Sorry, you are on a local test server. This only works on Azure SPW
